@@ -1,0 +1,39 @@
+{
+  "name": "deep-proxy",
+  "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
+  "description": "obj.very.deeply.nested.property.isNow = 'possible'",
+  "version": "0.0.0",
+  "keywords": [
+    "deep",
+    "property",
+    "assignment",
+    "proxy"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "bugs": "https://github.com/EvanHahn/deep-proxy/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EvanHahn/deep-proxy.git"
+  },
+  "main": "deep-proxy",
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha",
+    "test:watch": "mocha -w"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "standard": "^6.0.8"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ]
+  }
+}

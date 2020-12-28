@@ -1,6 +1,6 @@
 (function () {
-  var proxyHandler = {
-    get: function (target, key) {
+  const proxyHandler = {
+    get (target, key) {
       if (!(key in target)) {
         target[key] = deepProxy({})
       }

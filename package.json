@@ -2,7 +2,7 @@
   "name": "deep-proxy",
   "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
   "description": "obj.very.deeply.nested.property.isNow = 'possible'",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "deep",
     "property",

@@ -25,8 +25,8 @@
     "test:watch": "mocha -w"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "standard": "^6.0.8"
+    "mocha": "^8.2.1",
+    "standard": "^16.0.3"
   },
   "standard": {
     "globals": [

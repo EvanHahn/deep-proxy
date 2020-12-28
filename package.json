@@ -13,6 +13,12 @@
   "engines": {
     "node": ">= 6.0.0"
   },
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "CHANGELOG.md",
+    "deep-proxy.js"
+  ],
   "bugs": "https://github.com/EvanHahn/deep-proxy/issues",
   "repository": {
     "type": "git",

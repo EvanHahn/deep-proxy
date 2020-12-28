@@ -1,7 +1,6 @@
 Deep Proxy
 ==========
 [![Build Status](https://travis-ci.org/EvanHahn/deep-proxy.svg?branch=master)](https://travis-ci.org/EvanHahn/deep-proxy)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 *Requires `Proxy` support. This is in newer browsers and Node 6+.*
 

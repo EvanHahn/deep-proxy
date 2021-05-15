@@ -31,7 +31,7 @@
     "test:watch": "mocha -w"
   },
   "devDependencies": {
-    "mocha": "^8.2.1",
+    "mocha": "^8.4.0",
     "standard": "^16.0.3"
   },
   "standard": {

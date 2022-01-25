@@ -27,19 +27,9 @@
   "main": "deep-proxy",
   "scripts": {
     "pretest": "standard",
-    "test": "mocha",
-    "test:watch": "mocha -w"
+    "test": "node test.js"
   },
   "devDependencies": {
-    "mocha": "^9.1.2",
     "standard": "^16.0.4"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "it",
-      "beforeEach",
-      "afterEach"
-    ]
   }
 }

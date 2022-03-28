@@ -1,7 +1,5 @@
 # Deep Proxy
 
-[![Build Status](https://travis-ci.org/EvanHahn/deep-proxy.svg?branch=master)](https://travis-ci.org/EvanHahn/deep-proxy)
-
 _Requires `Proxy` support. This is in newer browsers and Node 6+._
 
 Live this dream:

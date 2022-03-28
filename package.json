@@ -26,10 +26,15 @@
   },
   "main": "deep-proxy",
   "scripts": {
-    "pretest": "standard",
+    "pretest": "npm run lint",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check .",
+    "format": "prettier --write .",
     "test": "node test.js"
   },
   "devDependencies": {
-    "standard": "^16.0.4"
+    "eslint": "^7.18.0",
+    "prettier": "^2.6.1"
   }
 }

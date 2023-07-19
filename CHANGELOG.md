@@ -4,7 +4,7 @@
 
 ### Removed
 
-- Dropped support for Node <14. Node 14+ is required
+- Dropped support for Node <18. Node 18+ is required
 
 ## 0.1.1 - 2020-12-28
 

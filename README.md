@@ -16,7 +16,7 @@ console.log(obj);
   very: {
     deeply: {
       nested: {
-        property: 'possible'
+        property: "possible"
       }
     }
   }

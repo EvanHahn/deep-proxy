@@ -8,6 +8,4 @@ const proxyHandler = {
   },
 };
 
-export function deepProxy(obj) {
-  return new Proxy(obj, proxyHandler);
-}
+export const deepProxy = (obj) => new Proxy(obj, proxyHandler);

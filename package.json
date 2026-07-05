@@ -32,7 +32,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "format": "prettier --write .",
-    "test": "node test.js"
+    "test": "node --test"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

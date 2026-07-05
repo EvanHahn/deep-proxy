@@ -1,5 +1,5 @@
-const assert = require("node:assert");
-const deepProxy = require("./deep-proxy");
+import assert from "node:assert";
+import { deepProxy } from "./deep-proxy.js";
 
 // Deep property assignment
 const obj = { foo: "boo" };

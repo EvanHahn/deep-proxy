@@ -13,6 +13,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "type": "module",
   "files": [
     "LICENSE.md",
     "README.md",

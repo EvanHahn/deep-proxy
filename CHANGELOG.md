@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Module is now an ES Module
+
 ### Removed
 
 - Dropped support for Node <18. Node 18+ is required

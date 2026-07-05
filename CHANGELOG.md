@@ -8,7 +8,7 @@
 
 ### Removed
 
-- Dropped support for Node <18. Node 18+ is required
+- Dropped support for Node <22. Node 22+ is required
 
 ## 0.1.1 - 2020-12-28
 

@@ -1,10 +1,10 @@
 const proxyHandler = {
   get(target, key) {
-    if (!(key in target)) {
+    if (typeof key !== "symbol" && !(key in target)) {
       target[key] = deepProxy({});
     }
 
-    return target[key];
+    return Reflect.get(target, key);
   },
 };
 

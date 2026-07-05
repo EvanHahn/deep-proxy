@@ -5,6 +5,8 @@ import { deepProxy } from "./deep-proxy.js";
 const obj = { foo: "boo" };
 const proxy = deepProxy(obj);
 
+assert.deepEqual(obj, { foo: "boo" });
+
 proxy.very.deeply.nested.property = "wow";
 
 assert.deepEqual(obj, {

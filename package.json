@@ -20,10 +20,10 @@
     "CHANGELOG.md",
     "deep-proxy.js"
   ],
-  "bugs": "https://github.com/EvanHahn/deep-proxy/issues",
+  "bugs": "https://codeberg.org/EvanHahn/deep-proxy/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/EvanHahn/deep-proxy.git"
+    "url": "https://codeberg.org/EvanHahn/deep-proxy.git"
   },
   "main": "deep-proxy",
   "scripts": {
